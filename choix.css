@@ -1,0 +1,226 @@
+header{
+  top:0;
+}
+.choice{
+  background-color: aqua;
+  height:700px;
+  width:350px;
+  border:5px solid #000000;
+  float:left;
+  margin: 20px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+.hole_choice{
+  margin-top: 50px;
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+  height:30%;
+  text-decoration:dotted;
+  text-align: center;
+  
+}
+.text1{
+  color:rgba(245, 245, 245, 0.869);
+  font-size: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+}
+.title1{
+  color:rgba(245, 245, 245, 0.869);
+  font-size:35px;
+}
+
+div#wrapper{
+  background-color:#f7f3f3;
+  width: 1500px;
+  height:750px;
+}
+div#first{
+  background-color: rgb(211, 14, 96);
+  transition: background-color 0.4s;
+  border-radius: 15px;
+  border-width: 3px;
+  
+}
+
+div#second{
+  background-color: rgb(100, 200, 100);
+  transition: background-color 0.4s;
+  border-radius: 15px;
+  border-width: 3px;
+}
+
+div#third{
+  background-color:  rgb(0, 183, 255);
+  transition: background-color 0.4s;
+  border-radius: 15px;
+  border-width: 3px;
+}
+
+.child_one{
+  width: 100%;
+  height: 300px;
+  background-image: url(new_1_children.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0px;
+}
+.space{
+  height: 80px;
+}
+
+div#first:hover{
+  background-color: rgb(127, 193, 255);
+}
+
+div#first:not(:hover){
+  transition-delay: 0.35s;
+}
+
+div#second:hover{
+  background-color: rgba(88, 211, 60, 0.486);
+}
+
+div#second:not(:hover){
+  transition-delay: 0.35s;
+}
+div#third:hover{
+  background-color: rgb(7, 89, 167);
+}
+
+div#third:not(:hover){
+  transition-delay: 0.35s;
+}
+
+
+
+
+footer{
+  background-color: rgb(188, 234, 238);
+  margin-top: auto;
+  width:auto;
+  height: 350px;
+  
+}
+.left_side{
+  padding-top: 45px;
+  margin-left: 10%;
+  width:25%;
+  position:absolute;
+  padding-left: 150px;
+}
+
+.right_side{
+  padding-top: 45px;
+ margin-left: 85% ;
+ width:20%;
+}
+p{
+  font-size:26px; 
+}
+.adresse,.email{
+  font-size: 20px;
+  color:rgb(60, 59, 59)
+}
+
+.middle_side {
+  padding-top: 45px;
+  margin-left: 40%;
+  width:35%;
+  position:absolute; 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.middle_side input[type="email"]{
+  margin-top: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height:50px;
+}
+.tag{
+  font-size: 30px;
+  text-align: center;
+}
+.subm_button{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height:50px;
+  background-color: rgb(0, 174, 255);
+}
+
+#button1{
+  height:50px;
+  width:70px;
+}
+
+
+.button_choice{
+  background-color: rgb(244, 247, 247);
+  height:50px;
+  border:5px solid #000000;
+  float:left;
+  margin: 20px;
+  margin-left: 65px;
+  margin-right: 65px;
+  border-color: #ccc;
+  border-width: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width:80%;
+  display:flex;
+  justify-content:space-around;
+  border-radius: 17px;
+}
+
+.button_choice button {
+  border-radius: 30px; 
+  border: 2px solid #333;
+  background-color: #fff; 
+  color: #333; 
+  padding: 10px 20px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: all 0.3s ease-in-out; 
+}
+
+.button_choice button:hover {
+  background-color: #333; 
+  color: #fff; 
+  border: 2px solid #333; 
+}
+
+.button_choice button:focus {
+  outline: none; 
+  box-shadow: 0 0 0 2px #333; 
+}
+
+.main_parain_text{
+  padding-left: 52%;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.817);
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a.go_main {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.612);
+}
+
+a.go_main:hover {
+  color: rgb(5, 5, 5);
+}
+

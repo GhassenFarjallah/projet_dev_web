@@ -1,0 +1,202 @@
+.container{
+  background-color:#F5F5F6;
+  margin-top: 3cm;
+  display: block;
+}
+
+#prenom{
+  width: 8cm ;
+  height: 0.9cm;
+  border-radius: 0 20px 0 20px;
+  
+
+}
+#nom{
+  width: 8cm ;
+  margin-right: 1cm ;
+  height: 0.9cm;
+  border-radius: 0 20px 0 20px;
+  
+
+}
+h1{
+  text-align: left ;
+  margin-left: 2cm;
+  margin-bottom: 1px;
+  margin-left: 5.5cm;
+  font-size: 34px;
+
+}
+p{
+  text-align: left ;
+  margin-left: 5.5cm;
+  margin-top: 1px;
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.6;
+}
+#sujet{
+  width: 8cm ;
+  margin-right: 1cm ;
+  height: 0.9cm;
+  border-radius: 0 20px 0 20px;
+  
+
+}
+#email{
+  width: 8cm ;
+  height: 0.9cm;
+  border-radius: 0 20px 0 20px;
+
+}
+#message{
+  margin-right: 1cm ;
+  margin-left: 1.2cm;
+  height: 3.5cm;
+  width: 17.5cm     ;
+  border-radius: 0 20px 0 20px;
+
+}
+
+.nom{
+display: inline-block;
+}
+.prenom{
+  display: inline-block;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #006F8C;
+}
+.nom,.prenom{
+  padding-left:100px;
+}
+
+footer{
+  background-color: rgb(194,233,250);
+  height: 8cm;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  
+}
+h6{
+  color:#d33131;
+  font-size: 20px;
+}
+h5{
+  font-size: 24px;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec-gauche{
+display: inline-block;
+width: 30%;
+margin-left: 150px;
+}
+.sec-mid{
+display: inline-block;
+margin-left: 50px;
+width: 30%;
+
+}
+.sec-droite{
+display: inline-block;
+margin-left: 50px;
+
+}
+.divet{
+  display: inline-block;
+}
+
+.np {
+  display: flex;
+  flex-direction: column;
+}
+
+.smail {
+  display: flex;
+  flex-direction: column;
+}
+
+.num_nom_rue {
+  display: flex;
+  flex-direction: column;
+}
+
+.Appartement {
+  display: flex;
+  flex-direction: column;
+}
+
+.Ville {
+  display: flex;
+  flex-direction: column;
+}
+
+.Région {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pays {
+  display: flex;
+  flex-direction: column;
+}
+
+.CodePostal {
+  display: flex;
+  flex-direction: column;
+}
+
+.Téléphone {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.body{
+
+  width: 80%;
+  justify-content: center;
+  text-align: center ;
+  align-items: center;
+  background-color: white;
+  margin-left: 10%; 
+  height:80%;
+}
+
+
+
+
