@@ -25,7 +25,7 @@
         <div class="body">
             <br><br>
 
-        <h1>Contactez-nous !</h1>
+        <h1>Detail facturation</h1>
             <div class="nom">
                 <br><br>
                 <form style="text-align: left ; font-weight: bold ;">
@@ -33,6 +33,7 @@
                 <input type="text" id="nom" name="nom" required>
             </form>
             </div>
+
             <div class="prenom">
                 <form style="text-align: left ; font-weight: bold ;">
                     <label style="display:inline-block;width:100px;" for="prenom">Prénom :</label>
@@ -41,14 +42,6 @@
             </div>
         
         <div class="smail">
-            <div class="sujet"> 
-                <form style="text-align: left ; font-weight: bold ;">
-                    <label  style="display:inline-block;width:100px;" for="sujet">Sujet :</label>
-  <input type="text" id="sujet" name="sujet" required>
-  
-</form>
-
-</div>
 
 <div class="email">
     <form style="text-align: left ; font-weight: bold ;">
@@ -62,7 +55,7 @@
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Num et Nom rue :</label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="num_nom_rue_1" name="nom" required>
         </form>
         </div>
         
@@ -70,14 +63,14 @@
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Appartement, suite, unité, etc. :</label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="Appartement_1" name="nom" required>
         </form>
         </div>
         <div class="Ville">
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Ville :</label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="Ville_1" name="nom" required>
         </form>
         </div>
 
@@ -85,14 +78,14 @@
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Région / Département :</label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="Région_1" name="nom" required>
         </form>
         </div>
         <div class="Pays">
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Pays/region: </label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="Pays_1" name="nom" required>
         </form>
         </div>
 
@@ -100,7 +93,7 @@
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Code Postal </label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="CodePostal_1" name="nom" required>
         </form>
         </div>
         
@@ -108,7 +101,7 @@
             <br><br>
             <form style="text-align: left ; font-weight: bold ;">
                 <label style="display:inline-block;width:100px;" for="nom">Téléphone: </label>
-            <input type="text" id="nom" name="nom" required>
+            <input type="text" id="Téléphone_1" name="nom" required>
         </form>
         </div>
         
@@ -116,17 +109,18 @@
 
         <div class="message">
                 <form style="text-align:left ; font-weight: bold ;">
-                <label style="display:inline-block;width:100px;" for="message">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Message :</label>
+                <label style="display:inline-block;width:100px;" for="message">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remarque </label>
   <textarea id="message"  name="message" required></textarea>
   <br><br>
   <input style="font-size: 20px; margin-left: 1.3cm; width:5cm;height:1.5cm ; border-radius: 0 20px 20px 20px;
-  " type="submit" value="Commander">
+  " type="submit" value="Commander" onclick="checkForm()" >
 </form><br>
         </div>
         <br>
     </div>
-
     <br><br>
+</div>
+    
 
 </div>
 </div>
@@ -148,7 +142,7 @@
         <br><br>
         <input type="email" placeholder="Votre adresse e-mail..." required="required" ><br>
 
-        <button class="button3">SOUSCRIRE</button>
+        <button class="button3" >SOUSCRIRE</button>
     </div>
     <div class="sec-droite">
 
@@ -161,71 +155,8 @@
     </div>
 </footer>
 <script src='commande.js'>
-
+    
+  </script>
 </body>
 </html>
-
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="contact.css">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <img style="width:100%  ;height: 10cm;position: absolute;left: 0;top: 0;opacity: 0.93;" src="4-enfants.jpg">
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-                <br><br>
-                <br><br>
-                <br><br>
-                <br><br>
-                <br><br>
-
-        <div class="body">
-            <br><br>
-
-        <h1>Contactez-nous !</h1>
-        <br>
-        <p>Si vous désirez en apprendre davantage sur le travail ou les programmes de SOS Villages d'Enfants Mahres, 
-            si vous avez une proposition de partenariat à nous soumettre ou si vous êtes en train d'organiser une collecte de fonds pour soutenir SOS Villages d'Enfants, 
-            n'hésitez pas à nous contacter ! Nous sommes disponibles pour répondre à toutes vos interrogations avec plaisir.</p>
-        <div class="np">
-            <div class="nom">
-                <br><br>
-                <form style="text-align: left ; font-weight: bold ;">
-                    <label style="display:inline-block;width:100px;" for="nom">Nom :</label>
-                    <input type="text" id="nom" name="nom" required>
-                </form>
-            </div>
-            <div class="prenom">
-                <form style="text-align: left ; font-weight: bold ;">
-                    <label style="display:inline-block;width:100px;" for="prenom">Prénom :</label>
-                    <input type="text" id="prenom" name="prenom" required>
-                </form>
-            </div>
-        </div>
-        <div class="smail">
-            <div class="sujet"> 
-                <form style="text-align: left ; font-weight: bold ;">
-                    <label style="display:inline-block;width:100px;" for="sujet">Sujet :</label>
-                    <input type="text" id="sujet" name="sujet" required>
-                </form>
-            </div>
-
-            <div class="email">
-                <form style="text-align: left ; font-weight: bold ;">
-                    <label style="display:inline-block;width:100px;" for="email">Email :</label>
-                    <input type="email" id="email" name="email" required>
-                </form>
-            </div>
-        </div>-->
 
